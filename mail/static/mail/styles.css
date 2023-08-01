@@ -1,0 +1,9 @@
+textarea {
+    min-height: 400px;
+}
+
+.text-timestamp{
+    text-align: right;
+    margin-left: auto;
+    float: right;
+}
