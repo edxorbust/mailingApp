@@ -25,7 +25,7 @@ SECRET_KEY = '05$4$3aew(8ywondz$g!k4m779pbvn9)euj0zp7-ae*x@4pxr+'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['web-production-90bf7.up.railway.app']
 
 
 # Application definition
@@ -40,6 +40,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
 ]
+
+CSRF_TRUSTED_ORIGINS = ['https://web-production-90bf7.up.railway.app']
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
